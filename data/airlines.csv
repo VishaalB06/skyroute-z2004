@@ -1,0 +1,17 @@
+airline_id,airline_name,iata_code,country,hub_city
+1,Qatar Airways,QR,Qatar,Doha
+2,Emirates,EK,UAE,Dubai
+3,Ethiopian Airlines,ET,Ethiopia,Addis Ababa
+4,Kenya Airways,KQ,Kenya,Nairobi
+5,Turkish Airlines,TK,Turkey,Istanbul
+6,Lufthansa,LH,Germany,Frankfurt
+7,British Airways,BA,UK,London
+8,Air France,AF,France,Paris
+9,KLM,KL,Netherlands,Amsterdam
+10,South African Airways,SA,South Africa,Johannesburg
+11,EgyptAir,MS,Egypt,Cairo
+12,Air Tanzania,TC,Tanzania,Dar es Salaam
+13,RwandAir,WB,Rwanda,Kigali
+14,Precision Air,PW,Tanzania,Dar es Salaam
+15,Flydubai,FZ,UAE,Dubai
+16,Etihad Airways,EY,UAE,Abu Dhabi

@@ -1,0 +1,28 @@
+city_id,city_name,country,iata_code
+1,Dar es Salaam,Tanzania,DAR
+2,Nairobi,Kenya,NBO
+3,Zanzibar,Tanzania,ZNZ
+4,Johannesburg,South Africa,JNB
+5,Cape Town,South Africa,CPT
+6,Lagos,Nigeria,LOS
+7,Addis Ababa,Ethiopia,ADD
+8,Cairo,Egypt,CAI
+9,Dubai,UAE,DXB
+10,Doha,Qatar,DOH
+11,London,UK,LHR
+12,Paris,France,CDG
+13,Amsterdam,Netherlands,AMS
+14,Frankfurt,Germany,FRA
+15,Istanbul,Turkey,IST
+16,Mumbai,India,BOM
+17,Delhi,India,DEL
+18,Singapore,Singapore,SIN
+19,Bangkok,Thailand,BKK
+20,New York,USA,JFK
+21,Lusaka,Zambia,LUN
+22,Kampala,Uganda,EBB
+23,Accra,Ghana,ACC
+24,Kigali,Rwanda,KGL
+25,Casablanca,Morocco,CMN
+26,Abu Dhabi,UAE,AUH
+27,Chennai,India,MAA
