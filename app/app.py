@@ -3,21 +3,21 @@ SkyRoute — Flight Search & Admin Dashboard
 Z2004 DBMS | Final Submission | AlaguVishaalBalaji | ZDA24B036
 Run: python app.py
 """
-
+ 
 from flask import Flask, jsonify, request, render_template_string
 import psycopg2, psycopg2.extras, random, string, os
 from datetime import datetime
 from dotenv import load_dotenv
-
-load_dotenv()
-
+ 
+load_dotenv()  # reads variables from .env file in the same folder
+ 
 app = Flask(__name__)
-
+ 
 DB_CONFIG = {
     "host":     os.getenv("DB_HOST", "localhost"),
     "database": os.getenv("DB_NAME", "skyroute"),
     "user":     os.getenv("DB_USER", "postgres"),
-    "password": os.getenv("postgres123"),
+    "password": os.getenv("DB_PASSWORD", "postgres123"),
     "port":     int(os.getenv("DB_PORT", 5432)),
 }
 ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "skyroute2026")
