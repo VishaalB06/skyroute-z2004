@@ -5,16 +5,22 @@ Run: python app.py
 """
 
 from flask import Flask, jsonify, request, render_template_string
-import psycopg2, psycopg2.extras, random, string
+import psycopg2, psycopg2.extras, random, string, os
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
 DB_CONFIG = {
-    "host": "localhost", "database": "skyroute",
-    "user": "postgres", "password": "postgres123", "port": 5432
+    "host":     os.getenv("DB_HOST", "localhost"),
+    "database": os.getenv("DB_NAME", "skyroute"),
+    "user":     os.getenv("DB_USER", "postgres"),
+    "password": os.getenv("postgres123"),
+    "port":     int(os.getenv("DB_PORT", 5432)),
 }
-ADMIN_PASSWORD = "skyroute2026"
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "skyroute2026")
 
 def get_conn():
     return psycopg2.connect(**DB_CONFIG)
